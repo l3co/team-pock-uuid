@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :team, Team.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "sa",
+  password: "sa",
   database: "team_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
